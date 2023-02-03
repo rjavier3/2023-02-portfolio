@@ -13,7 +13,7 @@ const Footer = () =>{
                     </p>
                 </div>
                 <div className="px-5">
-                    <a href="https://russelljohnjavier.com/old-portfolo" className="tey-footer-link"> Old Portfolio &gt;</a>
+                    <a href="https://russelljohnjavier.com/old-portfolio" className="tey-footer-link"> Old Portfolio &gt;</a>
                 </div>
             </div>
             </div>
