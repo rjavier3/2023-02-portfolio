@@ -6,10 +6,14 @@ import ScrollToTop from "../components/Scroll-to-top";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/globals.css";
 import "../styles/custom.css";
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-JWP3C2H0XE";
+ReactGA.initialize(TRACKING_ID);
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <> 
       <Head>
         <title>Russell John Javier | Web Designer and Developer</title>
         <link rel="icon" href="./images/favicon.ico" />

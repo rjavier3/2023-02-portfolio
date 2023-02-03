@@ -18,10 +18,16 @@ import CallToAction from "../components/sections/call-to-action";
 import Contact from "../components/sections/contact";
 import ContactInfo from "../components/sections/contact-info";
 import Footer from "../components/sections/footer";
+import ReactGA from "react-ga";
+
 
 const Homepage = () => {
   const navbarRef = useRef(null);
   const logoRef = useRef(null);
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
 
   useEffect(() => {
     var navbar = navbarRef.current;
