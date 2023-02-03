@@ -15,7 +15,7 @@ const Intro = () => {
               <h6>Web Developer</h6>
               <h1>Russell John Javier</h1>
               <p>If you need an online presence for your porfolio, need to build a store for your shop, or need a front-end developer to be part of your team</p>
-              <a href="#0" className="btn-curve btn-lit mt-40">
+              <a href="#contact" className="btn-curve btn-lit mt-40">
                 <span>Contact Me</span>
               </a>
             </div>

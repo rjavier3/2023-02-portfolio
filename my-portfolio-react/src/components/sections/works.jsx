@@ -16,7 +16,7 @@ const Works3Slider = () => {
   const navigationNextRef = useRef(null);
 
   return (
-    <section className="work-carousel section-padding caroul simpl sub-bg position-re">
+    <section id="works" className="work-carousel section-padding caroul simpl sub-bg position-re">
       <div className="container-fluid">
         <div className="sec-head custom-font text-center">
           <h6 className="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
@@ -76,11 +76,11 @@ const Works3Slider = () => {
                         <div className="item-img bg-img wow imago" style={{ backgroundImage: `url('${slide.image}')` }}>
                         </div>
                         <div className="cont">
-                          <h6><a href="#0">{ slide.title }</a></h6>
+                          <h6>{ slide.title }</h6>
                           <h4>
-                            <Link href={slide.slug}>
-                              <a>{ slide.secTex }</a>
-                            </Link>
+                            <a href={slide.slug} target="_blank">
+                              <>{ slide.secTex }</>
+                            </a>
                           </h4>
                         </div>
                     </div>

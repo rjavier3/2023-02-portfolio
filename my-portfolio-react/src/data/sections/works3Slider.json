@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "title": "Custom WordPress",
+    "title": "Metal Manufacturer",
     "secTex": "Advanced Panel Products LTD.",
     "image": "/images/websites/advanced-panel.jpg",
-    "slug": "/project-details/project-details-dark"
+    "slug": "https://advancedpanel.com/"
   },
   {
     "id": 2,
-    "title": "WordPress",
+    "title": "Arborist Service",
     "secTex": "Cottage Care Company",
     "image": "/images/websites/cottage.jpg",
-    "slug": "/project-details/project-details-dark"
+    "slug": "https://thecottagecarecompany.com/"
   },
   {
     "id": 3,
-    "title": "WordPress",
+    "title": "Nutritionist",
     "secTex": "The Gaeta Institute",
     "image": "/images/websites/gaeta-contact.jpg",
-    "slug": "/project-details/project-details-dark"
+    "slug": "https://michaelgaeta.com/"
   },
   {
     "id": 4,
-    "title": "Custom WordPress",
-    "secTex": "Letter Arts Emporium",
-    "image": "/images/websites/letter-art.jpg",
-    "slug": "/project-details/project-details-dark"
+    "title": "Web Hosting",
+    "secTex": "Lightning VM",
+    "image": "/images/websites/lightning-vm.jpg",
+    "slug": "https://lightningvm.ca/"
   },
   {
     "id": 5,
-    "title": "WordPress",
-    "secTex": "Sophistechated Marketing and Development",
-    "image": "/images/websites/smd.jpg",
-    "slug": "/project-details/project-details-dark"
+    "title": "Theraphy Service",
+    "secTex": "Theraphy Wisdom",
+    "image": "/images/websites/smd-rpst.jpg",
+    "slug": "https://therapywisdom.com/relational-privilege-and-systemic-trauma/"
   }
 ]
