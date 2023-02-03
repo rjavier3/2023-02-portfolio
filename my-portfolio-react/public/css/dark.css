@@ -3535,10 +3535,10 @@ header.simpl {
       width: 100%;
       height: 100%;
       background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#13161d));
-      background: -webkit-linear-gradient(top, transparent, #13161d);
-      background: -o-linear-gradient(top, transparent, #13161d);
-      background: linear-gradient(180deg, transparent, #13161d);
-      opacity: .6; }
+      background: -webkit-linear-gradient(top, transparent, #13161d 85%);
+      background: -o-linear-gradient(top, transparent, #13161d 85%);
+      background: linear-gradient(180deg, transparent, #13161d 85%);
+      opacity: .8; }
   .work-carousel.caroul.simpl .content .cont {
     position: absolute;
     bottom: 0;

@@ -1,11 +1,11 @@
 {
   "id": 1,
-  "image1": "/images/about/set-up.jpg",
-  "image2": "/images/about/bike.jpg",
-  "image3": "/images/about/rio.jpg",
-  "smallTitle": "About Me",
+  "image1": "/images/about/keyboard.jpg",
+  "image2": "/images/about/ocean.jpg",
+  "image3": "/images/about/bass2.jpg",
+  "smallTitle": "About",
   "title": { "first": "Creating website", "second": "for your business." },
-  "content": "It all began when I was born, as digital technology was just starting to gain mainstream popularity. Some individuals were skeptical and believed that investing in it would result in homelessness or even death within just two years. However, my mother had faith in its potential so the moment she gave birth to me she told me that I will become a web developer to save humanity.",
+  "content": "It all began when I was born, as digital technology was just starting to gain mainstream popularity. Some individuals were skeptical and believed that investing in it would result in homelessness or even death",
   "features": [
     {
       "id": 1,

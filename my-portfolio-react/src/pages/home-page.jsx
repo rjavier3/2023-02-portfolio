@@ -4,7 +4,7 @@ import DarkTheme from "../layouts/Dark";
 //= ================== Components ==================//
 import Navbar from "../components/sections/nav-bar";
 import Intro from "../components/sections/intro-banner";
-import Features from "../components/Features";
+import Features from "../components/sections/features";
 import SelfIntro from "../components/sections/self-intro";
 import Works from "../components/sections/works";
 import Skills from "../components/Skills-circle2";
@@ -57,7 +57,6 @@ const Homepage = () => {
       <div className="main-content">
         <Features />
         <Works />
-        <About/>
         <ContactFull/>
         <Footer noSubBG />
       </div>

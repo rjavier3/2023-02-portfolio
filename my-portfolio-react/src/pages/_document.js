@@ -1,4 +1,8 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "259607473";
+ReactGA.initialize(TRACKING_ID);
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {

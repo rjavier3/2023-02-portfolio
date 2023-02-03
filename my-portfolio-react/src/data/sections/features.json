@@ -3,7 +3,7 @@
     "id": 1,
     "icon": "pe-7s-gleam",
     "title": "Freelance",
-    "details": "You can hire me as a freelance to build your business or personal website."
+    "details": "Hire me as a freelance developer to create your business or personal website."
   },
   {
     "id": 2,
@@ -15,6 +15,6 @@
     "id": 3,
     "icon": "pe-7s-medal",
     "title": "Responsive",
-    "details": "your website will look good in phones, tablet, and desktop"
+    "details": "Your website will be designed to look great on phones, tablets, and desktop computers."
   }
 ]

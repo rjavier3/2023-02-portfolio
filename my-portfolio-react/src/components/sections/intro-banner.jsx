@@ -14,7 +14,7 @@ const Intro = () => {
             <div className="caption center mt-50">
               <h6>Web Developer</h6>
               <h1>Russell John Javier</h1>
-              <p>If you need an online presence for your porfolio, need to build a store for your shop, or need a front-end developer to be part of your team</p>
+              <p>If you are in need of an online presence for your portfolio, require a platform to build your online store, or are looking for a talented front-end developer to join your team, I am here to help.</p>
               <a href="#contact" className="btn-curve btn-lit mt-40">
                 <span>Contact Me</span>
               </a>

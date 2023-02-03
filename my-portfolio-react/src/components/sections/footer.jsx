@@ -8,7 +8,7 @@ const Footer = () =>{
             <div className="container">
             <div className="copyrights text-center mt-0">
                 <p>
-                © 2023 by Russell John Javier 
+                © 2023 Russell John Javier 
                 </p>
             </div>
             </div>

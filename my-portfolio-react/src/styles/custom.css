@@ -1,0 +1,24 @@
+.tey-follow-icon{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.01);
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 13px;
+    opacity: .6;
+}
+.tey-normal-p{
+color: #c8c8c8;
+font-size: 15px;
+font-weight: 300;
+line-height: 2;
+margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .tey-follow-icons{
+        margin-bottom: -15px;
+      }
+}

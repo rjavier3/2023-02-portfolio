@@ -21,7 +21,7 @@ const Works3Slider = () => {
         <div className="sec-head custom-font text-center">
           <h6 className="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
           <Split>
-            <h3 className="wow" data-splitting>My Works.</h3>
+            <h3 className="wow" data-splitting>Projects.</h3>
           </Split>
         </div>
         <div className="row">

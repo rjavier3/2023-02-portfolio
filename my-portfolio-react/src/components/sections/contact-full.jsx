@@ -154,14 +154,18 @@ const ContactSection = () => {
                 <div className="item md-mb50 wow fadeInUp">
                   <span className="icon pe-7s-mail"></span>
                   <h6>Email</h6>
-                  <p>russelljohn.javier@gmail.com</p>
+                  <div>
+                    <a href="mailto:russelljohn.javier@gmail.com" className="tey-normal-p">russelljohn.javier@gmail.com</a>
+                  </div>
                 </div>
             </div>
             <div className="col-lg-4">
                 <div className="item md-mb50 wow fadeInUp">
                   <span className="icon pe-7s-phone"></span>
                   <h6>Phone</h6>
-                  <p>+1.780.886.2081</p>
+                  <div>
+                    <p>+1.780.886.2081</p>
+                  </div>
                 </div>
             </div>
             <div className="col-lg-4">
@@ -170,11 +174,14 @@ const ContactSection = () => {
                   <h6>Follow me</h6>
                   <div className="tey-follow-icons">
                     <div className="social">
-                      <a href="https://twitter.com/RJJdeveloper" className="tey-follow-icon">
+                      <a href="https://twitter.com/RJJdeveloper" target="_blank" rel="noreferrer" className="tey-follow-icon">
                         <i className="fab fa-twitter"></i>
                       </a>
-                      <a href="https://www.linkedin.com/in/russelljohnjavier-webdeveloper/" className="tey-follow-icon">
+                      <a href="https://www.linkedin.com/in/russelljohnjavier-webdeveloper/" target="_blank" rel="noreferrer" className="tey-follow-icon">
                         <i className="fab fa-linkedin-in"></i>
+                      </a>
+                      <a href="https://github.com/rjavier3" target="_blank" rel="noreferrer" className="tey-follow-icon">
+                        <i className="fab fa-github"></i>
                       </a>
                     </div>
                   </div>
