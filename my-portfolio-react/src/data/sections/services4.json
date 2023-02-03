@@ -1,20 +1,19 @@
 [
     {
         "id": 1,
-        "title": "Digital Marketing",
-        "icon": "pe-7s-gleam",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "title": "Email",
+        "icon": "pe-7s-mail",
+        "content": "russelljohn.javier@gmail.com"
     },
     {
       "id": 2,
-      "title": "Web & App Development",
+      "title": "Phone",
       "icon": "pe-7s-phone",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "content": "+1.780.886.2081"
     },
     {
       "id": 3,
-      "title": "Graphic Design",
-      "icon": "pe-7s-magic-wand",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "title": "Follow me",
+      "content": ""
     }
 ]

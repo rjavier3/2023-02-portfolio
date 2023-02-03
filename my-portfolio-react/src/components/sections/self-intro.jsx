@@ -28,7 +28,7 @@ const Services5 = () => {
                 <span></span>
               </div>
               <h3 className="mb-30 fw-700">My passion is<br /> creating website</h3>
-              <p>It all began when I was born, as digital technology was just starting to gain mainstream popularity. Some individuals were skeptical and believed that investing in it would result in homelessness or even death within just two years. However, my mother had faith in its potential so the moment she gave birth to me she told me that I will become a web developer to save humanity, I did not understand because I did speak English yet. In 2014, we moved to Canada, and I finally learned English and suddenly everything makes sense...</p>
+              <p>It all began when I was born, as digital technology was just starting to gain mainstream popularity. Some individuals were skeptical and believed that investing in it would result in homelessness or even death within just two years. However, my mother had faith in its potential so the moment she gave birth to me she told me that I will become a web developer to save humanity.</p>
               <p><a >Learn more about my journey as a web developer</a></p>
             </div>
           </div>

@@ -5,15 +5,19 @@ import DarkTheme from "../layouts/Dark";
 import Navbar from "../components/Navbar";
 import Intro from "../components/sections/intro-banner";
 import Features from "../components/Features";
-import ServicesTop from "../components/sections/self-intro";
+import SelfIntro from "../components/sections/self-intro";
 import Works from "../components/sections/works";
 import Skills from "../components/Skills-circle2";
 import ServicesBottom from "../components/Services6";
 import Testimonials from "../components/Testimonials2";
 import Clients from "../components/Clients1";
 import Blogs from "../components/Blogs-three-column1";
-import CallToAction from "../components/Call-to-action";
-import Footer from "../components/Footer";
+import About from "../components/sections/about";
+import ContactFull from "../components/sections/contact-full";
+import CallToAction from "../components/sections/call-to-action";
+import Contact from "../components/sections/contact";
+import ContactInfo from "../components/sections/contact-info";
+import Footer from "../components/sections/footer";
 
 const Homepage = () => {
   const navbarRef = useRef(null);
@@ -52,14 +56,9 @@ const Homepage = () => {
       <Intro />
       <div className="main-content">
         <Features />
-        <ServicesTop />
         <Works />
-        <Skills theme="dark" />
-        <ServicesBottom />
-        <Testimonials />
-        <Clients theme="dark" />
-        <Blogs newHome subBG />
-        <CallToAction theme="dark" />
+        <About/>
+        <ContactFull/>
         <Footer noSubBG />
       </div>
     </DarkTheme>

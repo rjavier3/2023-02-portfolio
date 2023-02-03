@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/curs/1.jpg",
+    "title": "Custom WordPress",
+    "secTex": "Advanced Panel Products LTD.",
+    "image": "/images/websites/advanced-panel.jpg",
     "slug": "/project-details/project-details-dark"
   },
   {
     "id": 2,
-    "title": "art & illustration",
-    "secTex": "Inspiring new space",
-    "image": "/img/portfolio/curs/2.jpg",
+    "title": "WordPress",
+    "secTex": "Cottage Care Company",
+    "image": "/images/websites/cottage.jpg",
     "slug": "/project-details/project-details-dark"
   },
   {
     "id": 3,
-    "title": "art & illustration",
-    "secTex": "Natural plus modern",
-    "image": "/img/portfolio/curs/3.jpg",
+    "title": "WordPress",
+    "secTex": "The Gaeta Institute",
+    "image": "/images/websites/gaeta-contact.jpg",
     "slug": "/project-details/project-details-dark"
   },
   {
     "id": 4,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/curs/4.jpg",
+    "title": "Custom WordPress",
+    "secTex": "Letter Arts Emporium",
+    "image": "/images/websites/letter-art.jpg",
     "slug": "/project-details/project-details-dark"
   },
   {
     "id": 5,
-    "title": "art & illustration",
-    "secTex": "Inspiring new space",
-    "image": "/img/portfolio/curs/5.jpg",
+    "title": "WordPress",
+    "secTex": "Sophistechated Marketing and Development",
+    "image": "/images/websites/smd.jpg",
     "slug": "/project-details/project-details-dark"
   }
 ]
