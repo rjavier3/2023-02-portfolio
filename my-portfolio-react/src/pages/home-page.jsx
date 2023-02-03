@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 //= ================== Layout ==================//
 import DarkTheme from "../layouts/Dark";
 //= ================== Components ==================//
-import Navbar from "../components/Navbar/nav-bar";
+import Navbar from "../components/sections/nav-bar";
 import Intro from "../components/sections/intro-banner";
 import Features from "../components/Features";
 import SelfIntro from "../components/sections/self-intro";

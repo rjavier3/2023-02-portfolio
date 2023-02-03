@@ -15,14 +15,14 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="HTML5 Template Avo onepage themeforest"
+            content="web developer, designer, hire dev, hire a front end developer, create website, how to make a website, clean design, web design, freelancer, need wordpress website"
           />
           <meta
             name="description"
-            content="Avo - Onepage Multi-Purpose HTML5 Template"
+            content="I'm a freelance/junior web developer open for work, this is my web portfolio where I showcases some of the works I have done as a junior web developer as a freelance and at my school NAIT(Northern Alberta Institute of Technology)."
           />
-          <meta name="author" content="" />
-          <link rel="shortcut icon" href="/img/favicon.ico" />
+          <meta name="author" content="Russell JohnJavier" />
+          <link rel="shortcut icon" href="/images/favicon.ico" />
           {/* Google Fonts */}
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"

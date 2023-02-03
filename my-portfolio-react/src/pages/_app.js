@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Russell John Javier | Web Designer and Developer</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <link rel="icon" href="./images/favicon.ico" />
       </Head>
       <Cursor />
       <LoadingScreen />

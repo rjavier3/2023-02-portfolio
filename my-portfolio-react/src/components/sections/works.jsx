@@ -78,7 +78,7 @@ const Works3Slider = () => {
                         <div className="cont">
                           <h6>{ slide.title }</h6>
                           <h4>
-                            <a href={slide.slug} target="_blank">
+                            <a href={slide.slug} target="_blank" rel="noreferrer">
                               <>{ slide.secTex }</>
                             </a>
                           </h4>

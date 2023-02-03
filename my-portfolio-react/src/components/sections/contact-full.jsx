@@ -33,7 +33,7 @@ const ContactSection = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="form wow fadeInUp" data-wow-delay=".5s">
-              <Formik
+              {/* <Formik
                 initialValues={{
                   name: "",
                   email: "",
@@ -122,7 +122,27 @@ const ContactSection = () => {
                     </div>
                   </Form>
                 )}
-              </Formik>
+              </Formik> */}
+                <form name="contact" action="https://formspree.io/f/maylzgoj" method="POST">
+                  <div className="controls">
+                    <div className="row">
+                      <div className="col-lg-6">
+                          <div className="form-group"><input type="text" name="sender-name" id="sender-name" placeholder="Name"/></div>
+                      </div>
+                      <div className="col-lg-6">
+                          <div className="form-group">
+                            <input type="email" name="sender-email" id="sender-email" placeholder="Email" required/>
+                          </div>
+                      </div>
+                      <div className="col-12">
+                          <div className="form-group"><textarea name="sender-message" id="sender-message" placeholder="Message" rows="4" spellCheck="false"></textarea></div>
+                      </div>
+                      <div className="col-12">
+                          <div className="text-center"><button type="submit" className="simple-btn custom-font cursor-pointer"><span>Send Message</span></button></div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
             </div>
           </div>
         </div>
