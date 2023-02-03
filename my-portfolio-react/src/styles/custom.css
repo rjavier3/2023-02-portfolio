@@ -16,7 +16,10 @@ font-weight: 300;
 line-height: 2;
 margin: 0;
 }
-
+.tey-footer-link{
+    font-size: 12px;
+    color: #999;
+}
 @media screen and (min-width: 992px) {
     .tey-follow-icons{
         margin-bottom: -15px;
