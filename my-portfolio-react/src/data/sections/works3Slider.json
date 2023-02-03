@@ -3,35 +3,35 @@
     "id": 1,
     "title": "Metal Manufacturer",
     "secTex": "Advanced Panel Products LTD.",
-    "image": "/images/websites/advanced-panel.jpg",
+    "image": "/images/websites-webp/advanced-panel.webp",
     "slug": "https://advancedpanel.com/"
   },
   {
     "id": 2,
     "title": "Arborist Service",
     "secTex": "Cottage Care Company",
-    "image": "/images/websites/cottage.jpg",
+    "image": "/images/websites-webp/cottage.webp",
     "slug": "https://thecottagecarecompany.com/"
   },
   {
     "id": 3,
     "title": "Nutritionist",
     "secTex": "The Gaeta Institute",
-    "image": "/images/websites/gaeta-contact.jpg",
+    "image": "/images/websites-webp/gaeta-contact.webp",
     "slug": "https://michaelgaeta.com/"
   },
   {
     "id": 4,
     "title": "Web Hosting",
     "secTex": "Lightning VM",
-    "image": "/images/websites/lightning-vm.jpg",
+    "image": "/images/websites-webp/lightning-vm.webp",
     "slug": "https://lightningvm.ca/"
   },
   {
     "id": 5,
     "title": "Theraphy Service",
     "secTex": "Theraphy Wisdom",
-    "image": "/images/websites/smd-rpst.jpg",
+    "image": "/images/websites-webp/smd-rpst.webp",
     "slug": "https://therapywisdom.com/relational-privilege-and-systemic-trauma/"
   }
 ]

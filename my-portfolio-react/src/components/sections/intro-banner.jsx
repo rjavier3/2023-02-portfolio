@@ -7,7 +7,7 @@ const Intro = () => {
   }, []);
 
   return (
-    <header className="slider simpl fixed-slider bg-img valign" style={{ backgroundImage: "url(/images/tey-banner-img.jpg)" }} data-overlay-dark="6">
+    <header className="slider simpl fixed-slider bg-img valign" style={{ backgroundImage: "url(/images/tey-banner-img.webp)" }} data-overlay-dark="6">
       <div className="container">
         <div className="row">
           <div className="col-lg-9">
