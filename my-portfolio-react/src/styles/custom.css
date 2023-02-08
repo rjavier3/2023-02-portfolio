@@ -20,6 +20,9 @@ margin: 0;
     font-size: 12px;
     color: #999;
 }
+.tey-work-link:hover{
+    text-decoration: underline;
+}
 @media screen and (min-width: 992px) {
     .tey-follow-icons{
         margin-bottom: -15px;
