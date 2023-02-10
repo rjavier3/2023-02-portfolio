@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Formik, Form, Field } from "formik";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import {
@@ -8,9 +7,12 @@ import {
   handleMobileDropdown,
   handleSearch,
 } from "../../common/navbar";
+import scrollToTop from "../../common/scrollToTo";
 
 const Navbar = ({ lr, nr, theme }) => {
-
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <nav
       ref={nr}
@@ -20,7 +22,7 @@ const Navbar = ({ lr, nr, theme }) => {
     >
       <div className="container">
         <Link href="/">
-          <a className="logo mb-2">
+          <a className="logo mb-2" onClick={handleClick}>
             {theme ? (
               theme === "themeL" ? (
                 <img ref={lr} src={`${appData.darkLogo}`} alt="logo" width="50px" height="25px"/>
@@ -51,18 +53,13 @@ const Navbar = ({ lr, nr, theme }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link href="/">
-                <a className="nav-link">Home</a>
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link href="#works">
-                <a className="nav-link">Works</a>
+                <a className="nav-link" onClick={handleMobileDropdown}>Works</a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="#contact">
-                <a className="nav-link">Contact</a>
+                <a className="nav-link" onClick={handleMobileDropdown}>Contact</a>
               </Link>
             </li>
           </ul>
