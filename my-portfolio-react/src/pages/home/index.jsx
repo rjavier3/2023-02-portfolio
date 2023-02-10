@@ -1,23 +1,13 @@
 import { useRef, useEffect } from "react";
 //= ================== Layout ==================//
-import DarkTheme from "../layouts/Dark";
+import DarkTheme from "../../layouts/Dark";
 //= ================== Components ==================//
-import Navbar from "../components/sections/nav-bar";
-import Intro from "../components/sections/intro-banner";
-import Features from "../components/sections/features";
-import SelfIntro from "../components/sections/self-intro";
-import Works from "../components/sections/works";
-import Skills from "../components/Skills-circle2";
-import ServicesBottom from "../components/Services6";
-import Testimonials from "../components/Testimonials2";
-import Clients from "../components/Clients1";
-import Blogs from "../components/Blogs-three-column1";
-import About from "../components/sections/about";
-import ContactFull from "../components/sections/contact-full";
-import CallToAction from "../components/sections/call-to-action";
-import Contact from "../components/sections/contact";
-import ContactInfo from "../components/sections/contact-info";
-import Footer from "../components/sections/footer";
+import Navbar from "../../components/sections/nav-bar";
+import Intro from "../../components/sections/intro-banner";
+import Features from "../../components/sections/features";
+import Works from "../../components/sections/works";
+import ContactFull from "../../components/sections/contact-full";
+import Footer from "../../components/sections/footer";
 import ReactGA from "react-ga";
 
 
@@ -50,10 +40,6 @@ const Homepage = () => {
       var slidHeight = document.querySelector('.fixed-slider').getBoundingClientRect().height;
       document.querySelector('.main-content').style.setProperty('margin-top', slidHeight + 'px');
     })
-
-    // return () => {
-    //   document.body.classList.remove('dark2');
-    // }
   }, [navbarRef]);
 
   return (

@@ -18,7 +18,9 @@ function MyApp({ Component, pageProps }) {
         <title>Russell John Javier | Web Designer and Developer</title>
         <link rel="icon" href="./images/favicon.ico" />
       </Head>
-      <Cursor />
+      <div className="tey-cursor">
+        <Cursor />
+      </div>
       <ScrollToTop />
       <Component {...pageProps} />
 

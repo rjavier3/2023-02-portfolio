@@ -20,7 +20,7 @@ const Navbar = ({ lr, nr, theme }) => {
     >
       <div className="container">
         <Link href="/">
-          <a className="logo">
+          <a className="logo mb-2">
             {theme ? (
               theme === "themeL" ? (
                 <img ref={lr} src={`${appData.darkLogo}`} alt="logo" width="50px" height="25px"/>
@@ -34,7 +34,7 @@ const Navbar = ({ lr, nr, theme }) => {
         </Link>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler mb-2"
           type="button"
           onClick={handleMobileDropdown}
           data-toggle="collapse"

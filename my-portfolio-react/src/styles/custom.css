@@ -23,8 +23,22 @@ margin: 0;
 .tey-work-link:hover{
     text-decoration: underline;
 }
+.tey-work-slider-img{
+    background-position: center;
+}
+.tey-cursor{
+    display: none;
+}
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
 @media screen and (min-width: 992px) {
     .tey-follow-icons{
         margin-bottom: -15px;
+      }
+      .tey-cursor{
+        display: block;
       }
 }

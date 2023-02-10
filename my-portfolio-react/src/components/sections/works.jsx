@@ -28,10 +28,10 @@ const Works3Slider = () => {
           <div className="col-lg-12 no-padding">
             <Swiper
               className="swiper-wrapper"
-              slidesPerView={4}
+              slidesPerView="auto"
               spaceBetween={0}
               loop={true}
-              speed={1000}
+              speed={500}
               breakpoints={{
                 320: {
                   slidesPerView: 1,
@@ -73,7 +73,7 @@ const Works3Slider = () => {
                 slides.map((slide) => (
                   <SwiperSlide key={slide.id}>
                     <div className="content wow fadeInUp" data-wow-delay=".3s">
-                        <div className="item-img bg-img wow imago" style={{ backgroundImage: `url('${slide.image}')` }}>
+                        <div className="item-img bg-img wow imago tey-work-slider-img" style={{ backgroundImage: `url('${slide.image}')` }}>
                         </div>
                         <div className="cont">
                           <h6>{ slide.title }</h6>
