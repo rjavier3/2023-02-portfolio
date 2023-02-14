@@ -29,6 +29,13 @@
   },
   {
     "id": 5,
+    "title": "Firearm Shop",
+    "secTex": "Tundra Supply",
+    "image": "/images/websites-webp/tundra-supply.webp",
+    "slug": "https://beta.tundrasupply.com/"
+  },
+  {
+    "id": 6,
     "title": "Theraphy Service",
     "secTex": "Theraphy Wisdom",
     "image": "/images/websites-webp/smd-rpst.webp",
