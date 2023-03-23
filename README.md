@@ -4,6 +4,7 @@
 
 
 ## note for self
+paste after all the meta tags on <head>
 ```html
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JWP3C2H0XE"></script>
